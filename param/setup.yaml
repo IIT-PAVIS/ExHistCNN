@@ -1,0 +1,10 @@
+auto_start_index: 1
+automotion: true
+cost_option: InfoGain
+dataset_folder_name: dataset
+info_with_random: true
+max_range: 5.0
+octomap_resolution: 0.05
+point_subsample: 1
+project_name: auto3dmemo
+visualize_map: false

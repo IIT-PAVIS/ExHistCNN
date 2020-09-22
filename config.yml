@@ -1,0 +1,38 @@
+#common
+project_name: auto3dmemo
+dataset_folder: "dataset"
+depth_folder: "depth"
+visibility_folder: "visibility_map"
+param_folder: "param"
+temp_folder: "temp"
+
+## dataset generation related
+#logger_file: "logger"
+#pose_file: "pose.txt"
+#ee_pose_file: "pose_ee.txt"
+#neigh_info_file: "neighbourinfo.json"
+#neigh_id_file: "pose_neighbour.txt"
+#neigh_direction_id_file: "pose_neighbour_direcion.txt"
+#limit_neigh_num: 10
+#enforce_generation_neighbour: False
+#motion_label_file: "motionlabel.json"
+
+# visbility_related
+info_with_random: true
+max_range: 6.0
+octomap_resolution: 0.05
+point_subsample: 1
+sensor_min_dis: 0.1
+sensor_max_dis: 5.5
+sensor_angle_pan: 0.32 # unit pi*rad
+sensor_angle_tilt: 0.25 #0.24
+sensor_angle_gap: 0.005
+
+# reconstruction_related:
+intrinsic_file: "camera.json"
+hand_eye_file: "hand_eye.txt"
+
+## NBV result related
+#result_folder: "result"
+#vismap_runtime_folder: "vismap_runtime"
+#enforce_generation_nbv: False
