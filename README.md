@@ -66,6 +66,8 @@ You can download the metadata for the [results](https://istitutoitalianotecnolog
 and run *script/result_analysis/analyse_result.py*, to obtain the figures as reported in the paper.
 
 You can also visualise the point cloud at each time under each run and each method by running *script/result_analysis/reconstruct_NBV.py*.
+## Issues
+If you encounter issues in downloading the dataset or pre-trained models, please write to yiming.wang@iit.it, we will support you to download it.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
