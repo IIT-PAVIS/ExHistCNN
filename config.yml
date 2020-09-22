@@ -5,6 +5,12 @@ depth_folder: "depth"
 visibility_folder: "visibility_map"
 param_folder: "param"
 temp_folder: "temp"
+neigh_info_file: "neighbourinfo.json"
+neigh_id_file: "pose_neighbour.txt"
+neigh_direction_id_file: "pose_neighbour_direcion.txt"
+motion_label_file: "motionlabeltwostep.json"
+enforce_generation_neighbour: False
+pose_file: "pose.txt"
 
 ## dataset generation related
 #logger_file: "logger"
