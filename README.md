@@ -41,31 +41,31 @@ It is encouraged to put the dataset folder under the project, so that the script
 You can download the [csv files](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/Ec1AvAnEpehLgOWY2E3ZEJUB3gkNDVAUcxaGJkNzJDxj-Q?e=MLEy14) that organise the dataset for train, validation and test.
 It is recommended to put the dataset organisation files in the data folder.
 
-Optionally, you can organise your own dataset split for training/validation/testing by tuning and running the scripts in script/train/organise_dataset.py
+Optionally, you can organise your own dataset split for training/validation/testing by tuning and running the scripts in *script/train/organise_dataset.py*.
 
 ### Dataset preprocessing
-You should first pre-process the dataset, in terms of reading images and applying transforms using the script: script/train/prepare_H5.py.
+You should first pre-process the dataset, in terms of reading images and applying transforms using the script: *script/train/prepare_H5.py*.
 The preprocessed data will be saved the data to h5 files. This facilitate speedy training.
 
-In addition, if you want to train the MLP classifiers as described in the paper, you should prepare the resnet features for training by: script/train/prepare_resnet_features_MLP.py.
+In addition, if you want to train the MLP classifiers as described in the paper, you should prepare the resnet features for training by: *script/train/prepare_resnet_features_MLP.py*.
 This should be done after you have the H5 files.
 
 ## Network
 ### Training
-The script (script/train/trainExHistCNN.py) is for training the ExHistCNN models. You can also find the corresponding scripts to train the model with only depth images and MLP classifiers.
+You can run *script/train/trainExHistCNN.py* to train the ExHistCNN models. You can also find the corresponding scripts to train the model with only depth images and MLP classifiers.
 
 Optionally you can download the pre-trained models from [here](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EUBOjPb27VFOsNSuF7b8__EBoQ5WemMzOOxSJxdHyrnGAg?e=BfePqo)
 Please locate the pre-trained models within the checkpoint folder to avoid adapting path in the scripts.
 
 ### Evaluation
-You can evaluate the models by running: script/train/evaluate_network.py. The evaluation metric will be saved.
-You can make the performance plot by running: script/train/plot_result.py
+You can evaluate the models by running: *script/train/evaluate_network.py*. The evaluation metric will be saved.
+You can make the performance plot by running: *script/train/plot_result.py*.
 
 ## Visualise NBV results
 You can download the metadata for the [results](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EQ9TTdvz-f1MpV2OEjpJ6ksBqca_JQsJN2byhEvO7Vhutg?e=QiAXxe) for each NBV startegies reported in the paper.
-and run the script: script/result_analysis/analyse_result.py, to obtain the figures as reported in the paper.
+and run *script/result_analysis/analyse_result.py*, to obtain the figures as reported in the paper.
 
-You can also visualise the point cloud at each time under each run and each method by running the script: script/result_analysis/reconstruct_NBV.py
+You can also visualise the point cloud at each time under each run and each method by running *script/result_analysis/reconstruct_NBV.py*.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
