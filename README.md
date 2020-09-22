@@ -21,7 +21,7 @@ The code is tested on Unbuntu 16.04 LTS with Cuda version V9.2.148. It is recomm
 
 `conda env create -f environment.yml`
 
-Clone the project and activate the virtual environment, you are good to go :)
+Activate the virtual environment, you are good to go :)
 
 ## Dataset
 
