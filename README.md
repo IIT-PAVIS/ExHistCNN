@@ -69,7 +69,6 @@ You can also visualise the point cloud at each time under each run and each meth
 ## Issues
 If you encounter issues in downloading the dataset or pre-trained models, please write to yiming.wang@iit.it, we will support you to download it.
 
-Test fork!
 ## Citation
 If you find our work useful in your research, please consider citing:
 > @inproceedings{wang2020exhistcnn,\
