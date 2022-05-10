@@ -25,7 +25,7 @@ Activate the virtual environment, you are good to go :)
 
 ## Dataset
 
-Download the <a href="https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EWReM9pGq1NOop3jxORE_S8BT9bkGg27uJUzLvdOHq6AfA?e=6QrYXp">dataset</a> through the link.
+Download the <a href="https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EWReM9pGq1NOop3jxORE_S8BT9bkGg27uJUzLvdOHq6AfA?e=PiVDeH">dataset</a> through the link.
 The dataset contains the rendered rooms in SUNCG and Matterport3D which are used in this paper together with their ground-truth annotation json files.
 The renderings (depth+rgb) per room are generated with existing tools. For SUNCG, we use the [SUNCG toolbox](https://github.com/tinytangent/SUNCGtoolbox) while for real-world room scans from Matterport3D, we use [HabitatSim](https://github.com/facebookresearch/habitat-sim).
 You can find the detailed procedure of dataset generation in the video:
@@ -38,7 +38,7 @@ alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a> </br>
 It is encouraged to put the dataset folder under the project, so that the script can be run without adapting paths.
 
 ### Dataset organisation
-You can download the [csv files](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/Ec1AvAnEpehLgOWY2E3ZEJUB3gkNDVAUcxaGJkNzJDxj-Q?e=MLEy14) that organise the dataset for train, validation and test.
+You can download the [csv files](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/Ec1AvAnEpehLgOWY2E3ZEJUB3gkNDVAUcxaGJkNzJDxj-Q?e=ACRZfB) that organise the dataset for train, validation and test.
 It is recommended to put the dataset organisation files in the data folder.
 
 Optionally, you can organise your own dataset split for training/validation/testing by tuning and running the scripts in *script/train/organise_dataset.py*.
@@ -54,7 +54,7 @@ This should be done after you have the H5 files.
 ### Training
 You can run *script/train/trainExHistCNN.py* to train the ExHistCNN models. You can also find the corresponding scripts to train the model with only depth images and MLP classifiers.
 
-Optionally you can download the pre-trained models from [here](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EUBOjPb27VFOsNSuF7b8__EBoQ5WemMzOOxSJxdHyrnGAg?e=BfePqo)
+Optionally you can download the pre-trained models from [here](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EUBOjPb27VFOsNSuF7b8__EBoQ5WemMzOOxSJxdHyrnGAg?e=sx8InO)
 Please locate the pre-trained models within the checkpoint folder to avoid adapting path in the scripts.
 
 ### Evaluation
@@ -62,7 +62,7 @@ You can evaluate the models by running: *script/train/evaluate_network.py*. The 
 You can make the performance plot by running: *script/train/plot_result.py*.
 
 ## Visualise NBV results
-You can download the metadata for the [results](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EQ9TTdvz-f1MpV2OEjpJ6ksBqca_JQsJN2byhEvO7Vhutg?e=QiAXxe) for each NBV startegies reported in the paper.
+You can download the metadata for the [results](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EQ9TTdvz-f1MpV2OEjpJ6ksBw_icmt5N6Uq9nUg41RUDKQ?e=wcUOIE) for each NBV startegies reported in the paper.
 and run *script/result_analysis/analyse_result.py*, to obtain the figures as reported in the paper.
 
 You can also visualise the point cloud at each time under each run and each method by running *script/result_analysis/reconstruct_NBV.py*.
