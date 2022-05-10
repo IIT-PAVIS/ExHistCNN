@@ -25,7 +25,7 @@ Activate the virtual environment, you are good to go :)
 
 ## Dataset
 
-Download the <a href="https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EWReM9pGq1NOop3jxORE_S8BT9bkGg27uJUzLvdOHq6AfA?e=PiVDeH">dataset</a> through the link.
+Download the <a href="https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EWReM9pGq1NOop3jxORE_S8BT9bkGg27uJUzLvdOHq6AfA?e=tbwQiw">dataset</a> through the link.
 The dataset contains the rendered rooms in SUNCG and Matterport3D which are used in this paper together with their ground-truth annotation json files.
 The renderings (depth+rgb) per room are generated with existing tools. For SUNCG, we use the [SUNCG toolbox](https://github.com/tinytangent/SUNCGtoolbox) while for real-world room scans from Matterport3D, we use [HabitatSim](https://github.com/facebookresearch/habitat-sim).
 You can find the detailed procedure of dataset generation in the video:
@@ -38,7 +38,7 @@ alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a> </br>
 It is encouraged to put the dataset folder under the project, so that the script can be run without adapting paths.
 
 ### Dataset organisation
-You can download the [csv files](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/Ec1AvAnEpehLgOWY2E3ZEJUB3gkNDVAUcxaGJkNzJDxj-Q?e=ACRZfB) that organise the dataset for train, validation and test.
+You can download the [csv files](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/Ec1AvAnEpehLgOWY2E3ZEJUB3gkNDVAUcxaGJkNzJDxj-Q?e=SK9rde) that organise the dataset for train, validation and test.
 It is recommended to put the dataset organisation files in the data folder.
 
 Optionally, you can organise your own dataset split for training/validation/testing by tuning and running the scripts in *script/train/organise_dataset.py*.
