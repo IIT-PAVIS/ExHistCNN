@@ -54,7 +54,7 @@ This should be done after you have the H5 files.
 ### Training
 You can run *script/train/trainExHistCNN.py* to train the ExHistCNN models. You can also find the corresponding scripts to train the model with only depth images and MLP classifiers.
 
-Optionally you can download the pre-trained models from [here](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EUBOjPb27VFOsNSuF7b8__EBoQ5WemMzOOxSJxdHyrnGAg?e=sx8InO)
+Optionally you can download the pre-trained models from [here](https://istitutoitalianotecnologia-my.sharepoint.com/:u:/g/personal/yiming_wang_iit_it/EUBOjPb27VFOsNSuF7b8__EBoQ5WemMzOOxSJxdHyrnGAg?e=QKn4rz)
 Please locate the pre-trained models within the checkpoint folder to avoid adapting path in the scripts.
 
 ### Evaluation
